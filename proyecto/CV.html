@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="estilos.css">
+
+    <title>CV</title>
+    
+</head>
+<body>
+    <div>
+        <img src="CV.jpg" alt="2x2" width="120"
+        height="120">
+        <h1>Cosme Fulanito</h1>
+        <p>Desarrolo y Diseño Web</p>
+        <p>Tengo experiencia con trabajo en equipo y cuento con empatía para la resolución de problemas. Considero que una empresa es como una gran familia, e intento que el clima profesional sea el mejor posible en trato y mejoras para cada uno de nosotros</p>
+        <fieldset>
+            <legend>Datos Generales</legend>
+            <ul>
+                <li>fecha de nacimiento:12/5/87</li>
+                <li>email: cosmefulanito_87@yahoo.com</li>
+                <li>telefono: 888-333-658</li>
+                <li>direccion: Calle Falsa 123</li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Formacion Academica</legend>
+            <ul>
+                <li>Bachillerato: Dr. Francisco Muñis</li>
+                <li>Tecnicatura en Desarrolo de Software: Universidad Nacional de Ezeiza</li>
+                <li>Tecnico en raparacion de pc: UTM</li>
+                <li>Ingles Basico: Open Inglish</li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Experiencia Laboral</legend>
+            <li>Mantenimiento: Demiantel</li>
+            <li>Limpieza: Sersa</li>
+            <li>Despachante de Aero Naves: Aerolinea Argentina</li>
+        </fieldset>
+    </div>
+    <button>Descargar CV</button>
+    <script src="all.min.js"></script>
+    <script>
+        var btn =document.querySelector("button");
+        btn.onclick = () => {
+            window.print();
+        }
+    </script>
+</body>
+</html>

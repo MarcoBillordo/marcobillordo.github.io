@@ -1,0 +1,45 @@
+body{
+    background-color: aqua;
+}
+div{
+    background-color: white ;
+    border: 1px solid black;
+    padding: 12px;
+    width: 60%;
+    margin: 0 auto;
+}
+fieldset{
+    margin: 12px;
+}
+legend{
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 12px;;
+    font-weight: bold;
+}
+img{
+    border-radius: 50%;
+    margin-bottom: auto;
+    margin-left: auto;
+    float: left;
+}
+p{
+    font-family: Vegur, Georgia, "Times New Roman", sans-serif;
+
+}
+button{
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 50px 0 50px 300px;
+    border: none;
+    outline: none;
+    color: red;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.5);
+    cursor: pointer;
+    transition: .5s;
+}
+button:hover{
+    background-color: black;
+    box-shadow: 0 0 20px rgba(0,0,0,.5);
+}
